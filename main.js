@@ -1,5 +1,9 @@
-function preload() {
+bones = "Bones(PagleSongs).mp3";
+natural = "Imagine-Dragons-Natural-Official-Music-Video.mp3";
 
+function preload() {
+    loadSound("Bones(PaglaSongs).mp3");
+    loadSound("Imagine-Dragons-Natural-Official-Music-Video.mp3");
 }
 
 function setup() {
